@@ -11,13 +11,26 @@
 
 section {
     position: relative;
-    border: 5px solid black;
-    padding: 2%;
+    border: 3px solid black;
     /* % of the width of the containing element */
+    padding: 3%;
+    /*the browser calculates the margin*/
+    margin: auto
 }
 
+/* Generic rules for div */
 div {
+    /* div will position itself to the nearest ancestor whch has positioning set to non-static (section) */
     position: absolute;
     top: 0;
     right: 0;
+    border: 2px solid black;
+    padding: 2%;
+    margin: auto;
+}
+
+div#chicken {
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
