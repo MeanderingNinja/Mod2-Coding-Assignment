@@ -4,8 +4,17 @@
 
 @media (max-width: 767px) {}
 
+* {
+    box-sizing: border-box;
+}
+
 section {
     position: relative;
+}
+
+section.box {
+    border: 5px solid black;
+    padding: 0ema;
 }
 
 div {

@@ -3,7 +3,14 @@ Solution for Module 2 Coding Assignment for a Coursera Course (HTML, CSS, and Ja
 ## What does the site look like?
 - It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text.
 - Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). 
-    - (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.
+### Spacing
+- Note the spacing between sections (both horizontal and vertical).
+- Note the horizontal spacing between the edges of the section and the edges of the browser window. 
+- Note the spacing between the dummy text in each section and the edges of the section.
+- Make sure the dummy text is "pushed down" enough so it doesn't overlap the section title region.
+Hint: use margins and padding and use border-box as your box-sizing as discussed in Lecture 19.
+
 
 - How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
 ### Layout for desktop view (992px and above)
