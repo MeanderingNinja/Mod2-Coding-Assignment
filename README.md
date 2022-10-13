@@ -1,8 +1,11 @@
 # Mod2-Coding-Assignment
 Solution for Module 2 Coding Assignment for a Coursera Course (HTML, CSS, and Javascript for Web Developers)
 ## What does the site look like?
-It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text.
-How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
+- It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text.
+- Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). 
+    - (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+
+- How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
 ### Layout for desktop view (992px and above)
 - Each of the 3 sections should take up equal amount of space on the screen.
 - As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use percentages to define width and use the 'float' property. See Lecture 24). 
