@@ -4,6 +4,10 @@
 
 @media (max-width: 767px) {}
 
+section {
+    position: relative;
+}
+
 div {
     position: absolute;
     top: 0;
