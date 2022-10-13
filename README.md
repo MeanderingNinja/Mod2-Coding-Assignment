@@ -10,6 +10,7 @@ Solution for Module 2 Coding Assignment for a Coursera Course (HTML, CSS, and Ja
 - Note the horizontal spacing between the edges of the section and the edges of the browser window. 
 - Note the spacing between the dummy text in each section and the edges of the section.
 - Make sure the dummy text is "pushed down" enough so it doesn't overlap the section title region.
+
 **Hint: use margins and padding and use border-box as your box-sizing as discussed in Lecture 19.**
 ### Borders and Colors 
 - Each section should have a background color set to some color (of your choosing)
