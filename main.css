@@ -15,7 +15,8 @@ section {
     /* % of the width of the containing element */
     padding: 3%;
     /*the browser calculates the margin*/
-    margin: auto
+    margin: auto;
+    background-color: gray;
 }
 
 /* Generic rules for div */
