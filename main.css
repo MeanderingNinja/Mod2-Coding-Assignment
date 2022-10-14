@@ -10,23 +10,24 @@ h1 {
 }
 
 /* Responsive design and Media Query */
-.row {
-    width: 100%;
-}
 
 /********* Desktop View************/
 @media (min-width: 992px) {
     .col-lg-4 {
         float: left;
-        width: 33.33%;
+        /* some margin has to be deducted from 33.33% */
+        width: 31%;
     }
 }
 
 /********* Tablet View************/
+/********* some modifyication needed for the 3rd section to take the whole row************/
 @media (min-width: 768px) and (max-width: 991px) {
+
     .col-md-6 {
         float: left;
-        width: 50%;
+        /* some margin has to be deducted from 50% */
+        width: 48%;
     }
 }
 
@@ -39,15 +40,21 @@ h1 {
 }
 
 
-
 section {
     position: relative;
     border: 1px solid black;
-    /* % of the width of the containing element */
-    padding: 2%;
-    /*the browser calculates the margin*/
-    margin: 2%;
+    /*margin enables spacing between sections*/
+    margin: 1%;
     background-color: gray;
+}
+
+p {
+    border: 0px solid black;
+    /* % of the width of the containing element */
+    padding: 5% 2% 2% 2%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 /* Generic rules for div */
@@ -57,10 +64,16 @@ div {
     top: 0;
     right: 0;
     border: 1px solid black;
-    padding: 2%;
+    padding: 2% 2% 4% 2%;
     margin: auto;
+    /* width and height defines the relative size of the item (chicken/beef/sushi) box*/
+    width: 22%;
+    height: 13%;
+    /* (chicken/beef/sushi) appears in the center of the box*/
+    text-align: center;
 }
 
+/* Specific rules for each div */
 div#chicken {
     background-color: lightcoral;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
