@@ -18,7 +18,7 @@ Solution for Module 2 Coding Assignment for a Coursera Course (HTML, CSS, and Ja
 - Set a black border on both the section and section title region that is **1px** thick.
 
 
-- How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
+- How the sections are laid out on the screen depends on the width of the browser window. (**Hint: use media queries discussed in Lecture 23.**)
 ### Layout for desktop view (992px and above)
 - Each of the 3 sections should take up equal amount of space on the screen.
 - As you make the browser window wider or narrower, each section should become wider or narrower. (**Hint: use percentages to define width and use the 'float' property. See Lecture 24**). 
