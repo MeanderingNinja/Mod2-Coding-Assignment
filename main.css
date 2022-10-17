@@ -29,6 +29,11 @@ h1 {
         /* some margin has to be deducted from 50% */
         width: 48%;
     }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
 }
 
 /********* Mobile View can be deleted??************/
