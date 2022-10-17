@@ -31,7 +31,7 @@ h1 {
     }
 }
 
-/********* Mobile View************/
+/********* Mobile View can be deleted??************/
 @media (max-width: 767px) {
     .col-sm-12 {
         float: left;
@@ -52,7 +52,8 @@ p {
     border: 0px solid black;
     /* % of the width of the containing element */
     padding: 5% 2% 2% 2%;
-    font-size: 20px;
+    /* Sets the size relative to surrounding elements */
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -71,22 +72,24 @@ div {
     height: 13%;
     /* (chicken/beef/sushi) appears in the center of the box*/
     text-align: center;
+    /* Make the font size larger than content in <p> */
+    font-size: 120%;
 }
 
 /* Specific rules for each div */
-div#chicken {
+#chicken {
     background-color: lightcoral;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
-div#beef {
+#beef {
     background-color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
-div#sushi {
+#sushi {
     background-color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
